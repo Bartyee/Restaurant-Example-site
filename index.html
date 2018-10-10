@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Four Colors Restaurants</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Sanchez:400,400i" rel="stylesheet">  
+
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style-dist.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.8.7/tiny-slider.css">
+    
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    
+    
+	
+    
+</head>
+<body>
+    <header class="header">
+        <nav class="header__navigation">
+            <img src="img/assets/logo_restaurant-header.png" class="navigation__logo" >
+            <span class="navigation__company-name">Four Colors</span>
+            <ul class="navigation__item-list">
+                <li class="navigation__item navigation__item--home"><a href="#">Home</a></li>
+                <li class="navigation__item navigation__item--aboutUs"><a href="#">About us</a></li>
+                <li class="navigation__item navigation__item--menu"><a href="#">Menu</a></li>
+                <li class="navigation__item navigation__item--gallery"><a href="#">Gallery</a></li>
+                <li class="navigation__item navigation__item--contact"><a href="#">Contact</a></li>
+            </ul>
+            <span class="navigation__hamburger">
+                <img src="img/assets/hamburger.png">
+            </span>
+        </nav>
+        <div class="navAfterClickHamburger">
+            <ul>
+                <span class="navAfterClickHamburger--exit">X</span>
+                <li class="navigation__item--home">
+                    
+                    <a href="#">
+                        <img src="./img/assets/house-outline.png" />
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li class="navigation__item--aboutUs">
+                    <a href="#">
+                        
+                        <img src="./img/assets/chef.png" />
+                        <span>About us</span>
+                    </a>
+                </li>
+                <li class="navigation__item--menu">
+                    <a href="#">
+                        
+                        <img src="./img/assets/dish.png" />
+                        <span>Menu</span>
+                    </a>
+                </li>
+                <li class="navigation__item--gallery">
+                    <a href="#">
+                        
+                        <img src="./img/assets/picture.png" />
+                        <span>Gallery</span>
+                    </a>
+                </li>
+                <li class="navigation__item--contact">
+                    <a href="#">
+                        
+                        <img src="./img/assets/call.png" />
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="backToUpArrow">
+            <img src="./img/assets/arrowUp.png"/>
+        </div>
+        <div class="header__title">
+            <div class="header__title--welcome">
+                <h1>Welcome to Our Restaurants</h1>
+            </div>
+            <div class="header__title--logo">
+                <img src="./img/assets/logo_restaurant-header.png">
+            </div>
+            <div class="header__title--button">
+                <button>BOOK NOW</button>
+            </div>
+        </div>
+    </header>
+    <section class="aboutUs">
+            <div class="aboutUs__cock">
+                <img src="img/assets/chefs.png">
+            </div>
+            <article class="aboutUs__text">
+                <h1>About Our Restaurant</h1>
+                <p>We are professionals in the field of gastronomy. Our kitchen is a combination of Italian and Japanese cuisine. Satisfaction of our clients is the most important for us.</p>
+                <button id='przycisk' class="aboutUs__button">DISCOVER</button>
+            </article>
+            <div class="aboutUs__lampions">
+                <img src="img/assets/lampions.png" >
+            </div>
+            
+    </section>
+    <section class="menu">
+        <article class="menu__content">
+            <article class="menu__mainText">
+                <div class="menu__mainText--title">
+                    <h1>Our Special</h1>
+                    <p>We love high quality food...</p>
+                    <span>⋆⋆⋆⋆⋆</span>
+                </div>
+            </article>
+            <article class="menu__food">
+                <div class="menu__foodRow menu__foodRow--one">
+                    <div class="food preview">
+                        <img src="./img/food/food1.jpg">
+                        <span>Shrimp stuffed Mushrooms</span>
+                    </div>
+                    <div class="food foodMargin foodMargin--left">
+                        <img src="./img/food/food2.jpg">
+                        <span>Vinegar Mushrooms</span>
+                    </div>
+                    <div class="food foodMargin foodMargin--right">
+                        <img src="./img/food/food3.jpg">
+                        <span>Fried Taro Dumplings</span>
+                    </div>
+                    <div class="food">
+                        <img src="./img/food/food4.jpg">
+                        <span>Cucumber Salad</span>
+                    </div>
+                </div>
+                <div class="menu__foodRow menu__foodRow--two">
+                    <div class="food">
+                        <img src="./img/food/food5.jpg">
+                        <span>Little Fish Spicy Salt</span>
+                    </div>
+                    <div class="food foodMargin foodMargin--left">
+                        <img src="./img/food/food6.jpg">
+                        <span>Chinese Brocoli</span>
+                    </div>
+                    <div class="food foodMargin foodMargin--right">
+                        <img src="./img/food/food7.jpg">
+                        <span>Garkuc Chicken Wing</span>
+                    </div>
+                    <div class="food">
+                        <img src="./img/food/food8.jpg">
+                        <span>Kung Pao String Beans</span>
+                    </div>
+            </article>
+            </div>
+        </article>
+    </section>
+    <section class="gallery">
+        <img class="gallery__goldFlowers" src="./img/assets/gold-flowers.png">
+        <img class="gallery__lampions" src="./img/assets/lampions2.png">
+        <h1>Our Restaurant</h1>
+        <article class="slider">
+            <img src="./img/restaurant-gallery/restaurant1.jpg">
+            <img src="./img/restaurant-gallery/restaurant2.jpg">
+            <img src="./img/restaurant-gallery/restaurant3.jpg">
+            <img src="./img/restaurant-gallery/restaurant4.jpg">
+            <img src="./img/restaurant-gallery/restaurant5.jpg">
+        </article>
+        <button>Check us Tabelog</button>
+    </section>
+    <footer class="footer">
+        <article class="footer__background">
+            <div class="restaurantContact">
+                <h1>Contact with Us!</h1>
+                <div class="restaurantNumber restaurantContact--item">
+                    <img src="./img/assets/call.png" />
+                    <span>+48 500 500 005</span>
+                </div>
+                <div class="restaurantPlace restaurantContact--item">
+                    <img src="./img/assets/place-localizer.png" />
+                    <span>San Francisco, CA 94682, 00-902</span>
+                </div>
+                <div class="restaurantMail restaurantContact--item">
+                    <img src="./img/assets/mail.png" />
+                    <span>fourcolors@.gmail.com</span>
+                </div>
+            </div>
+            <div id="map"></div>
+        </article>
+    </footer>
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <script src="./scripts/bighover/jquery.bighover.js"></script>
+    <script src="./scripts/bighover/bigScript.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.8.7/min/tiny-slider.js"></script>
+    <script src="./scripts/slider/slider.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaHWkf6Mns2IcH3NRYA1hqfCDdGnzyhO4&callback=initMap"
+    async defer></script>
+    <script src="./scripts/google_map/initMap.js"></script>
+    <script src="./scripts/script.js"></script>
+
+    
+</body>
+</html>
