@@ -1,3 +1,6 @@
+var slider = require('./slider/slider');
+var initMap = require('./google_map/initMap');
+
 var win = $(window);
 
 const showNavBar = () => {
@@ -113,3 +116,5 @@ $(document).ready(function(){
     showUpArrow();
     
 })
+
+

@@ -1,0 +1,23 @@
+{
+  "name": "restaurantcolors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bartyee/Restaurant-Example-site.git"
+  },
+  "author": "Bartłomiej Pawelec",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bartyee/Restaurant-Example-site/issues"
+  },
+  "homepage": "https://github.com/Bartyee/Restaurant-Example-site#readme",
+  "devDependencies": {
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
