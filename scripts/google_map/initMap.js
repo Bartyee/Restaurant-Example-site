@@ -5,7 +5,7 @@ function initMap(){
     });
 }
 
-module.exports = initMapp;
+module.exports = initMap;
 
 
 
